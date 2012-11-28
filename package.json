@@ -1,0 +1,25 @@
+{
+  "name": "seneca-transport-queue",
+  "version": "0.0.1",
+  "description": "Seneca transport plugin backed by a queue.",
+  "main": "lib/transport_queue.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/rjrodger/seneca-transport-queue.git"
+  },
+  "keywords": [
+    "seneca",
+    "transport",
+    "queue"
+  ],
+  "author": "Richard Rodger",
+  "license": "BSD",
+  "dependencies": {
+    "redis": "~0.8.2",
+    "underscore": "~1.4.2",
+    "idgen": "~1.2.0"
+  }
+}
